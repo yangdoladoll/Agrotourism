@@ -1,0 +1,71 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="./css/register.css">
+</head>
+
+<body>
+    <div class="container">
+        <form onclick="signUp()" action="" id="contactForm">
+            <center><small><span id="error" style="color: red"></span></small></center>
+            <div class="alert">Registration Successful</div>
+            <h1>REGISTRATION</h1>
+            <div class="input-control">
+                <label class="required-field" for="name">Name</label>
+                <input id="name" name="name" type="text">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="gender">Gender</label>
+            </div>
+
+            <div class="Gender">
+                <input id="gender" name="gender" type="radio" value="Male">Male
+                <input id="gender" name="gender" type="radio" value="Female">Female
+                <input id="gender" name="gender" type="radio" value="Other">Other<br><br><br>
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label class="required-field" for="phone">Contact-no</label>
+                <input id="phone" name="phone" type="tel">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label class="required-field" for="email">Email</label>
+                <input id="email" name="email" type="text">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label class="required-field" for="password">Password</label>
+                <input id="password" name="password" type="password">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="password2">Password again</label>
+                <input id="password2" name="password2" type="password">
+                <div class="error"></div>
+            </div>
+            <button type="submit">Sign Up</button>
+        </form>
+        <div class="container signin">
+            <p>Already have an account? <a href="file:///C:/Users/YANGDOL/Documents/Mini%20Project/login.html">Sign
+                    in</a>.</p>
+        </div>
+    </div>
+ <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+    https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-auth.js"></script>   
+<script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+<script src="./js/verification.js"></script>
+<script src="./js/mail.js"> </script>
+<script src="./js/register.js"></script>
+</body>
+</html>

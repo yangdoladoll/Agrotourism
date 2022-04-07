@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking site</title>
+    <link rel="stylesheet" href="./css/stylee.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="img/logo.jpg" alt="">
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li class="active"><a href="#home">HOME</a></li>
+                <li><a href="#About">ABOUT US</a></li>
+                <li><a href="#services-container">ACTIVITIES</a></li>
+                <li><a href="#contact">CONTACT US</a></li>
+                <li><a href="#Book">BOOK NOW</a></li>
+            </ul>
+        </div>
+        <section id="home">
+            <div class="title">
+                <h1 class="h-primary">WELCOME TO LADAKH</h1>
+                <h2>AWAY FROM CITY HUSTLE</h2>
+            </div>
+        </section>
+        <div class="right">
+            <button class="btn"><a
+                    href="file:///C:/Users/YANGDOL/Documents/Mini%20Project/register.html">Register/Login</a></button>
+        </div>
+        <section id="Book">
+            <h1>Check Availability</h1>
+            <div id="Contain">
+                <form action="" class="form">
+                    <div class="input-group">
+                        <label for="check-in" class="input-label">Check-in</label>;
+                        <input type="date" class="input" id="check-in">
+                    </div>
+                    <div class="input-group">
+                        <label for="check-out" class="input-label">Check-out</label>
+                        <input type="date" class="input" id="check-out">
+                    </div>
+                    <div class="input-group">
+                        <label for="adults" class="input-label">Adults</label>
+                        <select class="options" id="adults">
+                            <option value="0">0</option>
+                            <option value="0">1</option>
+                            <option value="0">2</option>
+                            <option value="0">3</option>
+                            <option value="0">4</option>
+                            <option value="0">5</option>
+                            <option value="0">6</option>
+                            <option value="0">7</option>
+                            <option value="0">8</option>
+                            <option value="0">9</option>
+                            <option value="0">10</option>
+                        </select>
+                    </div>
+                    <div class="input-group">
+                        <label for="children" class="input-label">Children</label>
+                        <select class="options" id="children">
+                            <option value="0">0</option>
+                            <option value="0">1</option>
+                            <option value="0">2</option>
+                            <option value="0">3</option>
+                            <option value="0">4</option>
+                            <option value="0">5</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn form-btn btn-purple">Search
+                        <span class="dots"><i class="fas fa-ellipsis-h"></i></span>
+                    </button>
+                </form>
+            </div>
+        </section>
+        <section>
+            <div class="container"></div>
+            <h1 class="h-primary center" id="services-container">Explore</h1>
+            <div class="grid">
+                <div class="grid-item">
+                    <div class="card">
+                        <img class="card-img" src="img/ss.jpg" alt="Farms" />
+                        <div class="card-content">
+                            <h1 class="card-header">Farms</h1>
+                            <p class="card-text">
+                                I will use this as a paragraph.And this is part of our project.
+                            </p>
+                            <button class="card-btn"><a href="file:///C:/Users/YANGDOL/Documents/Mini%20Project/booking.html">Visit</a>
+                                 <span>&rarr;</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <div class="card">
+                        <img class="card-img" src="img/ct.jpg" alt="Culture & Tradition" />
+                        <div class="card-content">
+                            <h1 class="card-header">Culture & Tradition</h1>
+                            <p class="card-text">
+                                I will use this as a paragraph.And this is part of our project.
+                            </p>
+                            <button class="card-btn">
+                                Visit <span>&rarr;</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <div class="card">
+                        <img class="card-img" src="img/mon.jpeg" alt="Monastery" />
+                        <div class="card-content">
+                            <h1 class="card-header">Monastery</h1>
+                            <p class="card-text">
+                                I will use this as a paragraph.And this is part of our project.
+                            </p>
+                            <button class="card-btn">
+                                Visit <span>&rarr;</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <section id="About">
+            <div class="text-content">
+                <h1 class="h-primary center">About Us</h1>
+            </div>
+            <div id="paragraph">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur at beatae magnam molestias
+                    vel!<br>
+                    Ullam ducimus provident dicta nobis modi, porro rem?Lorem ipsum dolor sit amet consectetur<br>
+                    adipisicing elit. Hic repudiandae distinctio architecto magnam obcaecati voluptatum alias
+                    eveniet,<br>
+                    consectetur, corporis numquam odit Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Labore<br>
+                    iste harum quod laudantium suscipit nobis consequuntur eos amet assumenda dignissimos ratione,<br>
+                    temporibus aut soluta praesentium quos quis explicabo velit eveniet incidunt aspernatur animi at?
+                </p>
+            </div>
+        </section>
+<section id="contact">
+<h1 class="h-primary center">Contact Us</h1>
+    <div id="contact-box">
+            <form action="" id="Form">
+                <div class="alert">Your Message Sent</div>
+                <div class="form-group">
+                    <label for="name">Name: </label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email: </label>
+                    <input type="email" name="name" id="email" placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number: </label>
+                    <input type="phone" name="name" id="phone" placeholder="Enter your phone">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message: </label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </div>
+                <button class="button">Submit now</button>
+            </form>
+        </div>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src="./js/contact.js"></script>
+  </body>
+</html>
+
+</header>
+</body>
+
+</html> 

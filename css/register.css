@@ -1,0 +1,97 @@
+body {
+    background: linear-gradient(to right, #53898d, #456e7c, #527483);
+    font-family: 'Poppins', sans-serif;
+}
+
+#contactForm {
+    width: 50%;
+    margin: 15vh auto 0 auto;
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+#contactForm h1 {
+    color: #0f2027;
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+}
+
+#contactForm button {
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    color: white;
+    background-color: rgb(41, 57, 194);
+    border: none;
+    border-radius: 4px;
+}
+
+.input-control {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-control input {
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    font-size: 12px;
+    padding: 10px;
+    width: 100%;
+}
+
+#lang {
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    font-size: 12px;
+    padding: 10px;
+    width: 95%;
+}
+
+.required-field::after{
+      content: "*";
+      color:red;
+      margin-left:2px
+}
+
+.Gender {
+    margin-left: 10px;
+}
+
+.input-control input:focus {
+    outline: 0;
+}
+
+.input-control.success input {
+    border-color: #09c372;
+}
+
+.input-control.error input {
+    border-color: #ff3860;
+}
+
+.input-control .error {
+    color: #ff3860;
+    font-size: 9px;
+    height: 13px;
+}
+
+.signin {
+    text-align: center;
+    font-style: italic;
+
+}
+.alert{
+    width: 100%;
+    background: rgb(0, 255, 106);
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 900;
+    display: none;
+}
